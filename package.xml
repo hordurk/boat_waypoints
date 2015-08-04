@@ -1,0 +1,59 @@
+<package>
+  <name>boat_waypoints</name>
+  <version>1.0.0</version>
+  <description>boat_waypoints</description>
+  <maintainer email="heidarss@usc.edu">hordur</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/usc_asv_waypoint_supervisor</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>hordur</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>rospy</build_depend>
+  <build_depend>usc_asv_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>topic_tools</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>usc_asv_msgs</run_depend>
+  <run_depend>topic_tools</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>unique_id</run_depend>
+  <run_depend>usc_asv_utils</run_depend>
+  <run_depend>usc_asv_control_select</run_depend>
+
+  <build_depend>python-numpy</build_depend>
+  <run_depend>python-numpy</run_depend>
+
+  <build_depend>python-pyproj</build_depend>
+  <run_depend>python-pyproj</run_depend>
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>boat_heading_controller</test_depend> -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>geometry_msgs</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>actionlib</test_depend> -->
+  <!-- <test_depend>actionlib_msgs</test_depend> -->
+  <!-- <test_depend>usc_asv_msgs</test_depend> -->
+
+</package>
